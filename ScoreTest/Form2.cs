@@ -9,10 +9,11 @@ namespace ScoreBord
         public Form2()
         {
             InitializeComponent();
-            label1.Font = new Font("DS-Digital", 260.0f, FontStyle.Bold);
-            label2.Font = new Font("DS-Digital", 260.0f, FontStyle.Bold);
-            label5.Font = new Font("DS-Digital", 170.0f, FontStyle.Bold);
-            label7.Font = new Font("DS-Digital", 170.0f, FontStyle.Bold);
+            label6.BringToFront();
+            label1.Font = new Font("DS-Digital", 270.0f, FontStyle.Bold);
+            label2.Font = new Font("DS-Digital", 270.0f, FontStyle.Bold);
+            label5.Font = new Font("DS-Digital", 210.0f, FontStyle.Bold);
+            label7.Font = new Font("DS-Digital", 210.0f, FontStyle.Bold);
             label9.Font = new Font("DS-Digital", 60.0f, FontStyle.Bold);
             label12.Font = new Font("DS-Digital", 40.0f, FontStyle.Bold);
             label13.Font = new Font("DS-Digital", 40.0f, FontStyle.Bold);

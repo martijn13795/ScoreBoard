@@ -120,6 +120,8 @@ namespace ScoreBord
                                 }
                                 form2.Show();
                                 form3.Show();
+                                form2.TopMost = false;
+                                form3.TopMost = false;
                                 m = Convert.ToInt32(numericUpDown1.Value);
                                 s = 0;
                                 string mm = Convert.ToString(m);
