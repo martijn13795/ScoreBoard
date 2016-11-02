@@ -140,7 +140,7 @@ namespace ScoreBord
                             }
                             else
                             {
-                                MessageBox.Show("Vul de speeltijd van ëën helft in", "Er ging iets mis");
+                                MessageBox.Show("Vul de speeltijd van één helft in", "Er ging iets mis");
                             }
                         }
                         else
