@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Threading;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 using ScoreTest;
 
@@ -23,7 +25,7 @@ namespace ScoreBord
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private async void button1_Click(object sender, EventArgs e)
         {
             if (!((thuisScore < 99 && tijd == true) | (thuisScore < 99 && tijd == false && (m == 1 | m == 0) && s == 0)))
             return;
@@ -31,6 +33,13 @@ namespace ScoreBord
             thuisScore.ToString();
             form2.label1Text = thuisScore.ToString();
             form3.label1Text = thuisScore.ToString();
+            //form2.pictureBox1.Visible = true;
+            //form2.pictureBox2.Visible = false;
+            form2.pictureBox1.Enabled = true;
+            await Task.Delay(6000);
+            form2.pictureBox1.Enabled = false;
+            //form2.pictureBox2.Visible = true;
+            //form2.pictureBox1.Visible = false;
         }
 
         private void button2_Click(object sender, EventArgs e)
