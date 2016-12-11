@@ -67,7 +67,7 @@
             this.button1.Location = new System.Drawing.Point(26, 463);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 40);
-            this.button1.TabIndex = 0;
+            this.button1.TabIndex = 8;
             this.button1.Text = "EKC 2000";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -78,7 +78,7 @@
             this.button2.Location = new System.Drawing.Point(132, 463);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(105, 40);
-            this.button2.TabIndex = 1;
+            this.button2.TabIndex = 9;
             this.button2.Text = "Gasten";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -89,7 +89,7 @@
             this.button3.Location = new System.Drawing.Point(26, 509);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(100, 24);
-            this.button3.TabIndex = 2;
+            this.button3.TabIndex = 10;
             this.button3.Text = "Score - 1";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -100,7 +100,7 @@
             this.button4.Location = new System.Drawing.Point(132, 509);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(105, 24);
-            this.button4.TabIndex = 3;
+            this.button4.TabIndex = 11;
             this.button4.Text = "Score - 1";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
@@ -111,7 +111,7 @@
             this.button5.Location = new System.Drawing.Point(26, 401);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(211, 35);
-            this.button5.TabIndex = 4;
+            this.button5.TabIndex = 7;
             this.button5.Text = "Start de timer";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
@@ -130,7 +130,7 @@
             this.numericUpDown1.Location = new System.Drawing.Point(26, 311);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(211, 20);
-            this.numericUpDown1.TabIndex = 7;
+            this.numericUpDown1.TabIndex = 5;
             this.numericUpDown1.Value = new decimal(new int[] {
             30,
             0,
@@ -147,7 +147,7 @@
             this.button6.Location = new System.Drawing.Point(26, 337);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(211, 58);
-            this.button6.TabIndex = 8;
+            this.button6.TabIndex = 6;
             this.button6.Text = "Start het scorebord";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
@@ -158,7 +158,7 @@
             this.textBox1.MaxLength = 37;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(211, 20);
-            this.textBox1.TabIndex = 9;
+            this.textBox1.TabIndex = 2;
             // 
             // radioButton1
             // 
@@ -167,7 +167,7 @@
             this.radioButton1.Location = new System.Drawing.Point(32, 5);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(128, 17);
-            this.radioButton1.TabIndex = 11;
+            this.radioButton1.TabIndex = 0;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Stop timer bij 1 minuut";
             this.radioButton1.UseVisualStyleBackColor = true;
@@ -178,7 +178,7 @@
             this.radioButton2.Location = new System.Drawing.Point(32, 28);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(144, 17);
-            this.radioButton2.TabIndex = 12;
+            this.radioButton2.TabIndex = 1;
             this.radioButton2.Text = "Stop timer bij 0 seconden";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
@@ -215,7 +215,7 @@
             this.textBox2.MaxLength = 37;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(211, 20);
-            this.textBox2.TabIndex = 16;
+            this.textBox2.TabIndex = 1;
             this.textBox2.Text = "EKC 2000 ";
             // 
             // panel1
@@ -225,7 +225,7 @@
             this.panel1.Location = new System.Drawing.Point(26, 166);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(211, 53);
-            this.panel1.TabIndex = 18;
+            this.panel1.TabIndex = 3;
             // 
             // panel2
             // 
@@ -234,7 +234,7 @@
             this.panel2.Location = new System.Drawing.Point(26, 224);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(211, 52);
-            this.panel2.TabIndex = 19;
+            this.panel2.TabIndex = 4;
             // 
             // radioButton4
             // 
@@ -307,7 +307,7 @@
             this.button13.Location = new System.Drawing.Point(5, 5);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(11, 12);
-            this.button13.TabIndex = 24;
+            this.button13.TabIndex = 12;
             this.button13.Text = "i";
             this.button13.UseVisualStyleBackColor = true;
             this.button13.Click += new System.EventHandler(this.button13_Click);
@@ -317,7 +317,7 @@
             this.button7.Location = new System.Drawing.Point(26, 14);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(211, 33);
-            this.button7.TabIndex = 25;
+            this.button7.TabIndex = 13;
             this.button7.Text = "Legen";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);

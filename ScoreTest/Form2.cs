@@ -9,6 +9,12 @@ namespace ScoreBord
         public Form2()
         {
             InitializeComponent();
+            timeBeginPeriod(timerAccuracy);
+            this.SetStyle(
+            ControlStyles.AllPaintingInWmPaint |
+            ControlStyles.UserPaint |
+            ControlStyles.DoubleBuffer,
+            true);
             label6.BringToFront();
             label1.Font = new Font("DS-Digital", 270.0f, FontStyle.Bold);
             label2.Font = new Font("DS-Digital", 270.0f, FontStyle.Bold);
@@ -19,7 +25,20 @@ namespace ScoreBord
             label13.Font = new Font("DS-Digital", 40.0f, FontStyle.Bold);
         }
 
-            protected override void WndProc(ref Message m)
+        protected override void OnFormClosed(FormClosedEventArgs e)
+        {
+            timeEndPeriod(timerAccuracy);
+            base.OnFormClosed(e);
+        }
+
+        // Pinvoke:
+        private const int timerAccuracy = 4;
+        [System.Runtime.InteropServices.DllImport("winmm.dll")]
+        private static extern int timeBeginPeriod(int msec);
+        [System.Runtime.InteropServices.DllImport("winmm.dll")]
+        public static extern int timeEndPeriod(int msec);
+
+        protected override void WndProc(ref Message m)
             {
                 base.WndProc(ref m);
                 if (m.Msg == WM_NCHITTEST)
